@@ -27,19 +27,19 @@ char *rot13(char *str)
 				'x', 'y', 'z', 'a', 'b', 'c',
 				'd', 'e', 'f', 'g', 'h', 'i',
 				'j', 'k', 'l', 'm'};
-
+	
 	while (str[indx1])
 	{
 		for (indx2 = 0; indx2 < 52; indx2++)
 		{
-			for (indx2 = 0; indx2 < 52; indx2++)
+			if (str[indx1] == alphabet[indx2])
 			{
 				str[indx1] = rot13key[indx2];
 				break;
 			}
 		}
 
-		indx1++
+		indx1++;
 	}
 
 	return (str);
