@@ -1,6 +1,6 @@
 #include "main.h"
 
-int find_sqrt(int num, int root);
+int find_sqrt(int num, root)int ;
 int _sqrt_recursion(int n);
 
 /**
@@ -9,7 +9,7 @@ int _sqrt_recursion(int n);
  * @root: The root to be tested.
  *
  * Return: If the number has a natural square root - the square root.
- * 	If the number does not have a natural square root - -1.
+ *         If the number does not have a natural square root - -1.
  */
 int find_sqrt(int num, int root)
 {
